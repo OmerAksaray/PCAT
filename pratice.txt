@@ -1,0 +1,52 @@
+const Photo=require('./models/Photo.js')
+
+//connect db
+mongoose.connect("mongodb://127.0.0.1:27017/test");
+
+//create schema
+
+
+
+
+//create photo
+// const demo = new Photo({
+//   title: "Photo title 2",
+//   description: "photo 2 descrip",
+// });
+// console.log(demo.title);
+// //burda içeri import etmiş oluyoruz
+// demo
+//   .save()
+//   .then(() => console.log("Photo saved successfully"))
+//   .catch((error) => console.error("Error saving photo:", error));
+
+//read photo
+// const taker = Photo.find({});
+
+// console.log(taker);
+
+//update photo
+
+// const filter = { _id: "65a3da3b515e0d42718806c9" };
+// Photo.findOneAndUpdate(
+//   filter,
+//   {
+//     title: "Bu updatelendi",
+//     description: "Bu da desc updated",
+//   },
+//   { new: true }
+// ).then((data) => {
+//   console.log(data);
+// });
+
+// // delete photo
+// const id = "65a3e2611fc7efafd34aa60d";
+// async function deleteUserById(id) {
+//   try {
+//     const deleteUser = await Photo.findByIdAndDelete(id);
+//     console.log("deleted amk");
+//   } catch (err) {
+//     console.log(err);
+//   }
+// }
+// deleteUserById(id);
